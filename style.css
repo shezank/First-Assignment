@@ -1,0 +1,117 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    
+}
+.gap{
+    padding-bottom: 50px;
+}
+.Manu{
+    display: inline-block;
+    background-color: rgb(250, 125, 7);
+    width: 100%;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.Manu a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    
+}
+.Manu a:hover{
+    background: black;
+    color: orange;
+    padding: 20px;
+    
+}
+.text-color{
+    color: goldenrod;
+}
+.textandimg{
+    display: flex;
+    padding-left: 5%;
+    
+      
+}
+
+.two-box{
+    width: 50%;   
+}
+
+.two-box h1{
+    font-size: 80px;
+}
+.two-box img{
+    width: 90%;
+    
+    
+}
+.two-box a{
+    margin-top: 5%;
+}
+.button{
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(rgb(255, 187, 0), rgb(255, 124, 2));
+    padding: 10px 40px;   
+    margin-top: 200px;
+}
+.button:hover{
+    background: linear-gradient(rgb(253, 104, 4), rgb(255, 251, 0));
+    box-shadow: 5px 5px 40px black;
+    
+}
+
+.background-img{
+    background-image: url(images/shapes/7.png);
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+    
+}
+.recipes-text{
+    text-align: center;
+    padding: 0% 20%  0% 20%;
+    font-weight: 800; 
+}
+.three-box{
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+    padding: 10px;
+    margin: 50px;
+        
+}
+.three-box:hover{
+    background-color: rgb(252, 68, 1);
+    transform: scale(1.2);
+}
+.three-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.recipi-box{
+   display: flex;
+}
+#three-box1{
+    width: 25%;
+    
+}
+#three-box2{
+    width: 25%;
+}
+#three-box3{
+    width: 25%;
+}
+.two-box img{
+   
+}
+footer{
+    background-color: black;
+    color: rgb(87, 85, 85);
+    text-align: center;
+    padding: 50px;
+}
