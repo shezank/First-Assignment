@@ -1,7 +1,7 @@
 body{
     font-family: 'Heebo', sans-serif;
     margin: 0;
-    
+    color: rgb(51, 44, 44);
 }
 .gap{
     padding-bottom: 50px;
@@ -13,6 +13,7 @@ body{
     padding: 20px;
     font-weight: 900;
     text-align: center;
+    
 }
 .Manu a{
     text-decoration: none;
@@ -25,28 +26,23 @@ body{
     color: orange;
     padding: 20px;
     
+    
 }
 .text-color{
     color: goldenrod;
 }
 .textandimg{
     display: flex;
-    padding-left: 5%;
-    
-      
+    padding-left: 5%;    
 }
-
 .two-box{
     width: 50%;   
 }
-
 .two-box h1{
     font-size: 80px;
 }
 .two-box img{
-    width: 90%;
-    
-    
+    width: 90%;  
 }
 .two-box a{
     margin-top: 5%;
@@ -87,10 +83,11 @@ body{
 .three-box:hover{
     background-color: rgb(252, 68, 1);
     transform: scale(1.2);
+    color: white;
 }
 .three-box img{
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 10px;
 }
 .recipi-box{
@@ -106,9 +103,36 @@ body{
 #three-box3{
     width: 25%;
 }
-.two-box img{
-   
+.team-text{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+.full-team{
+    display: flex;
+    width: auto;
+}
+.single-profile{
+    margin: 10px;
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+}
+.single-profile:hover{
+    background: rgb(2, 46, 46);
+    color:white;
+    box-shadow: 10px 10px 1px lightseagreen;
+}
+.single-profile img{
+    height: 300px;
+    width: 300px;
+}
+.single-profile img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+
 footer{
     background-color: black;
     color: rgb(87, 85, 85);
