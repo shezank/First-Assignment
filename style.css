@@ -118,6 +118,7 @@ body{
     width: 300px;
     border: 2px solid black;
     text-align: center;
+    background: black;
 }
 .single-profile:hover{
     background: rgb(2, 46, 46);
@@ -131,6 +132,16 @@ body{
 .single-profile img:hover{
     transform: scale(1.2);
     border-radius: 20px;
+}
+.single-profile h2{
+    background: rgb(61, 59, 56);
+    padding: 20px;
+    
+}
+.single-profile h3{
+    background: rgb(32, 32, 31);
+    
+    
 }
 
 footer{
